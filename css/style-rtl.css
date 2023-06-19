@@ -1,0 +1,28 @@
+@media(max-width:767px) {
+  nav ul {
+    height: 85%;
+    display: none;
+    margin-top: 80px;
+    margin-right: -140%;
+    margin-left: -20px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.092);
+  }
+}
+
+.text p:first-child {
+  border-left: 2px solid var(--five_color);
+  border-right: none;
+  white-space: wrap;
+}
+
+@keyframes blink {
+  from {
+    border-left-color: var(--main-color);
+  }
+
+  to {
+    border-left-color: transparent;
+  }
+}
