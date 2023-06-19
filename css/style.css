@@ -875,13 +875,5 @@ footer {
   margin-bottom: 0;
 }
 
-@media(min-width:768px) {
-  .copyright {
-    position: absolute;
-    bottom: 0;
-  }
-}
-
-/* background-color: #ac2bac */
 
 /*end footer*/
