@@ -128,6 +128,12 @@ nav ul li a:hover {
   position: relative;
 }
 
+/* @media(max-width:767px) {
+  .wave-container {
+    height: 90vh;
+  }
+} */
+
 .wave-container::before {
   content: "";
   width: 100%;
@@ -194,14 +200,16 @@ nav ul li a:hover {
 /*end up-and-down*/
 
 @media(max-width:450px) {
-  .landing_area {
+  /* .landing_area {
     height: 540px;
-  }
+  } */
 
   .wave-container {
-    height: 110vh;
+    height: 85vh;
   }
-
+  .text p:nth-child(2){
+    display: none;
+  }
   .image_landing svg {
     font-size: 240px;
   }
